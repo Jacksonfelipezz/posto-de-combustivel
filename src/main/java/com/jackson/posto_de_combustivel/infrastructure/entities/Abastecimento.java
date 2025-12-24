@@ -19,7 +19,7 @@ public class Abastecimento {
     private Integer id;
     @OneToOne
     @JoinColumn(name = "Bomba_combustivel_id")
-    private BombaDeCombustivel bombaDeCombustivel;
+    private BombasDeCombustivel bombaDeCombustivel;
     @Column(name = "data_abastecimento")
     private LocalDate dataAbastecimento;
     @Column(name = "valor_total")
